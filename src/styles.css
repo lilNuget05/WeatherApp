@@ -1,0 +1,136 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 800px;
+  padding: 10px;
+}
+
+.app-title {
+  padding: 10px;
+}
+
+.app-title-icon {
+  font-size: 32px;
+  line-height: 42px;
+  color: rgb(0, 41, 102);
+  margin-right: 10px;
+}
+
+.app-title-text {
+  color: rgb(0, 41, 102);
+  font-size: 32px;
+}
+
+.main-layout {
+  border-radius: 10px;
+  min-height: 500px;
+  padding: 20px;
+}
+.content-search-row {
+  display: grid;
+  grid-template-columns: 50% auto;
+  margin-bottom: 20px;
+}
+
+.warning-text {
+  margin-top: 48px;
+}
+.comp-today {
+  margin-top: 48px;
+}
+.today-layout-title {
+  text-align: left;
+  color: rgb(114, 124, 146);
+  font-size: 17px;
+  font-weight: 500;
+}
+.today-layout-content {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-column-gap: 20px;
+  padding-top: 10px;
+}
+.today-layout-content-part1 {
+  text-align: left;
+}
+.layout-content-part1-city {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(114, 124, 146);
+}
+.layout-content-part1-temp {
+  font-size: 112px;
+  color: rgb(114, 124, 146);
+  font-weight: 400;
+}
+.layout-content-part1-img {
+  display: flex;
+}
+.today-layout-grid {
+  display: grid;
+  grid-template-columns: 60% 50%;
+}
+.layout-content-feelsLikeTemp {
+  font-weight: 600;
+  color: rgb(114, 126, 142);
+  font-size: 20px;
+  text-align: left;
+}
+.layout-parameters-grid {
+  display: grid;
+  grid-template-columns: 10% 35% 55%;
+}
+.layout-parameter-icon {
+  color: rgb(114, 126, 142);
+  text-align: left;
+  font-size: 18px;
+}
+.layout-parameter-name {
+  color: rgb(114, 126, 142);
+  text-align: left;
+  font-size: 16px;
+}
+.layout-parameter-data {
+  color: rgb(0, 128, 255);
+  text-align: left;
+  font-size: 16px;
+}
+.layout-hour-grid {
+  display: grid;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+}
+.weather-icon-style {
+  max-width: 100%;
+}
+.hour-layout-style {
+  text-align: left;
+}
+.wather-temp-style {
+  text-align: left;
+  font-size: 18px;
+  color: rgb(114, 124, 146);
+  font-weight: 400;
+  margin-top: 5px;
+}
+.layout-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.CompWeek-grid-Layout {
+  display: grid;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+  grid-template-rows: 15% 45% 45%;
+  grid-column-gap: 1px;
+}
+.CompWeek-grid-Layout-data {
+  padding: 0px;
+}
+.CompWeek-data-img-style {
+  max-width: 100%;
+}
+.compWeek-grid-border-style {
+  border-top: 2px solid gray;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
